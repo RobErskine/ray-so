@@ -475,6 +475,17 @@ const entertainment: Quicklink[] = [
     name: "Search Letterboxd",
     link: "https://letterboxd.com/search/{query}/",
   },
+  {
+    id: "baseball-reference",
+    name: "Search Baseball Reference",
+    link: "https://www.baseball-reference.com/search/search.fcgi?search={Player Name}",
+    icon: {
+      link: "https://www.baseball-reference.com/"
+    },
+    author: {
+      "name": "Rob Erskine",
+      "link": "https://raycast.com/Rob"
+  }
 ];
 
 const socials: Quicklink[] = [
